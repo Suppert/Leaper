@@ -1,7 +1,0 @@
-name: Leaper
-main: Leaper\Loader
-version: 1.0.0
-api: 2.0.0
-load: STARTUP
-author: suppert2
-description: let players leap into the air!
