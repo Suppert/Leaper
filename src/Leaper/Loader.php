@@ -30,7 +30,7 @@ class Loader extends PluginBase implements Listener
         $block = $player->getLevel()->getBlock(new Vector3($player->x, $player->y - 1, $player->z));
         $item = $player->getInventory()->getItemInHand()->getId();
         if ($item == 395) {
-            if($block->getId != 0){
+            if($block->getId() != 0){
             $xd = $player->getDirectionVector()->x;
             $zd = $player->getDirectionVector()->z;
             $player->knockback($player, 0, $xd, $zd, .85);
